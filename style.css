@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+a,li{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: #003366;
+    width:100%;
+   
+}
+    
+.nav{
+    
+}
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5rem;
+    color:white
+
+}
+.nav-link a{
+    font-size: 2rem;
+    color:#fff;
+
+}
+.logo{
+    width:5rem;
+    height: 5rem;
+
+}
